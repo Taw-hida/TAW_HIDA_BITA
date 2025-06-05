@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Task Board</title>
+
+</head>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<style>
+    h1 {
+        text-align: center;
+    }
+
+    .fieldset {
+        padding: 20px;
+        margin: 20px;
+    }
+
+</style>
+
+<body>
+    <h1><strong>Smart Task Board</strong></h1>
+    <fieldset class="fieldset">
+        <legend>
+            <form class="form form-control">
+                <div>
+                    <input type="text" id="name" placeholder="Enter a task">
+                    <select>
+                        <option value="selected">low</option>
+                        <option>medium</option>
+                        <option>high</option>
+                    </select>
+                    <button type="button" class="btn btn-primary" onclick="description()">Add Task</button>
+                </div>
+            </form>
+        </legend>
+    </fieldset>
+    <p></p>
+    <form class="form form-">
+        <label>Review project proposal</label><br>
+        <label>priority:</label><br>
+        <button type="button" class="btn btn-success form-control">Mark as Done</button><br>
+        <button type="button" class="btn btn-danger form-control">Delete</button>
+        <p></p>
+    </form>
+    <label>Send weekly report to supervisor</label><br>
+    <label>Priority:</label>
+    <p></p>
+    <button type="button" class="btn btn-success form-control">Mark as Done</button><br>
+    <button type="button" class="btn btn-danger form-control">Delete</button>
+    <p></p>
+    <h2>Task summary</h2>
+    <p></p>
+    <label>Total Tasks:0</label>
+    <P></P>
+    <label>Completed Tasks:0</label>
+    <P></P>
+    <label>Remaining Tasks:0</label>
+    <p></p>
+
+
+
+
+
+    <script>
+        function description ()
+        {
+            alert( "Task description cannot be empty" )
+        }
+    </script>
+</body>
+
+</html>
